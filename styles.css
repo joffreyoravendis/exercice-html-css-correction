@@ -32,12 +32,16 @@ h1 {
 h2 {
   font-size: 1.8em;
   margin-top: 1.5em;
+  text-align: center;
+
 }
 
 /* Paragraphes */
 p {
   font-size: 1.1em;
   color: #444;
+  text-align: center;
+
 }
 
 /* Listes */
