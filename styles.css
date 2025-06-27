@@ -1,5 +1,10 @@
 /* Typographie globale */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 body {
   font-family: 'Inter', sans-serif;
@@ -15,8 +20,6 @@ body > * {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px dashed red;
-
 }
 
 /* Titres */
