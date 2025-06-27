@@ -83,6 +83,10 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.03);
 }
 
+.cta {
+  text-align: center;
+}
+
 /* Footer */
 footer {
   text-align: center;
