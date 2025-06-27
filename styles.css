@@ -1,3 +1,59 @@
+/* Typographie globale */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Structure principale */
+body > * {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Titres */
+h1, h2 {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 1.5em;
+}
+
+/* Paragraphes */
+p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+/* Listes */
+ul {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 10px;
+}
+
+/* Bouton */
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -5,35 +61,31 @@
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 600;
+  margin-top: 20px;
   transition: background-color 0.3s ease;
 }
 
 .btn:hover {
   background-color: #5c7b89;
 }
-.portfolio-item {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
+
+/* Sections */
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
+/* Footer */
+footer {
   text-align: center;
+  color: #999;
+  font-size: 0.9em;
+  margin-top: 60px;
 }
 
-.portfolio-item img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
-.portfolio-item h2 {
-  font-size: 1.6em;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.portfolio-item p {
-  font-size: 1.1em;
-  color: #555;
-}
+/* Portfolio items */
+.portfol
